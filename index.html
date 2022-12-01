@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://lh3.googleusercontent.com/_TIUxfUF8XNooMFiv2qbR9X6_EMOoismn7ICtjRpu9Nq6kC21vAyJxRdXe0s6j60PJIb0hKxrXoM2_8C1D0DQIQ2kDNZbF2pxftqQRQqbiDiJcW4ySxoGe9PrUOBSYIu_Fu9PaQbWQALq7qiNWjUvnq8RXzFeovDPH7RQiUi2owg1IfT3xwJobsVoCnhixKqskCTgAnPoufMjsgqWQtPu8RIme6BzqgAy84dWhqODdZUNI-zNf8TRg4vGxgrwvdJWBD7d7oR5ym1c_KKBxNX4lBctTucq6_HGAgvsS0tymX1XNhA8xJDHhAgncqEUi3i0Od5mafYEoxZ0WzMKQ1XHyaOAR1uaV5j6A1HS9S3zjXDMRCX-bBg2iUKFDKmZ6DfsFz7wMRMGKGeIb8_dTLGozUGnUaUX-PELzXjJMk_Y397Vzav16ftHrSAjJugG-7t5qHcU0jVpN-AlDR30VuxjHYeqLcBfBwYZUCXBa99b2hwSvjpGDjn_jlaCozheU7An1yocinJWbEea_kjWVGUsq3b7iloLdx2dLGTB_N40pDOQGGdlN78aRTSDpjBz4dqjlMD1codP8IY9stO98sEpfzZdcNOs9hFWvgYm4TqmQ2A11EPXQLmZjBYFj1w4aUA2EdNQFYFnfn0kWDNepDr6-yyehzEBG8AnTZm2nj8ZZbO-a84_NlsGjfp9AD4DG4luqst46KnGfMszptjq8EkduexH7of7iDx-PSuT3RhebiVo2sDXKkCRZ5RCJmEpzxJ8qwjUW4Jm9BUYdP_chu4mwmPC49jBf6g0tHx8XB_BiUMxLT5U84ODjAGlwxcLLg2wx8Wx8FCEfCE2ueVwib1nUxQDj2eKY_WhK2YAsNQ2rSm3nMOftO6KKQcm-QeoWZsogbjJqS2JgvPFzhuNvE0KOc5Df-g2TVasvz02fi-z-kW=w720-h960-no?authuser=0");
+            background-repeat: no-repeat;
+            background-position: top;
+
+            color: white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .main {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 140vh;
+
+            color: black;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello, Kyu!!</div>
+        <div class="todo">코딩 오지게 배우기!</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
